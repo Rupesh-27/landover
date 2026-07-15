@@ -11,7 +11,7 @@ const SHOWCASE_MODELS = [
     name: 'DEFENDER OCTA',
     tagline: 'THE ULTIMATE HIGH-PERFORMANCE HERO',
     price: '₹ 2,65,00,000*',
-    image: '/defender_grey.png',
+    image: 'defender_grey.png',
     power: '635 PS Twin-Turbo V8',
     acceleration: '3.8 seconds (0-100 km/h)',
     clearance: '291 mm Ground Clearance',
@@ -20,7 +20,7 @@ const SHOWCASE_MODELS = [
     name: 'DEFENDER 130',
     tagline: 'ADVENTURE FOR UP TO EIGHT',
     price: '₹ 1,21,00,000*',
-    image: '/defender_blue.png',
+    image: 'defender_blue.png',
     power: '400 PS Mild-Hybrid Petrol',
     acceleration: '6.6 seconds (0-100 km/h)',
     clearance: '290 mm Ground Clearance',
@@ -29,7 +29,7 @@ const SHOWCASE_MODELS = [
     name: 'DEFENDER 110',
     tagline: 'THE ICONIC FIVE-DOOR TOUGH SUV',
     price: '₹ 1,04,00,000*',
-    image: '/defender_grey.png',
+    image: 'defender_grey.png',
     power: '300 PS Mild-Hybrid Diesel',
     acceleration: '7.0 seconds (0-100 km/h)',
     clearance: '290 mm Ground Clearance',
@@ -38,7 +38,7 @@ const SHOWCASE_MODELS = [
     name: 'DEFENDER 90',
     tagline: 'AGILE SHORT-WHEELBASE COMPACT 4x4',
     price: '₹ 97,00,000*',
-    image: '/defender_white.png',
+    image: 'defender_white.png',
     power: '300 PS Turbo Petrol',
     acceleration: '6.0 seconds (0-100 km/h)',
     clearance: '225 mm Ground Clearance',
@@ -210,7 +210,7 @@ export default function DefenderPage() {
             }}
           />
           <img
-            src="/defender_hero.png"
+            src="defender_hero.png"
             alt="Defender Offroad Ascent"
             style={{
               width: '100%',

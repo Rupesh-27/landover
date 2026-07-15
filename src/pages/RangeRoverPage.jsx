@@ -11,7 +11,7 @@ const SHOWCASE_MODELS = [
     name: 'RANGE ROVER SV',
     tagline: 'THE ULTIMATE EXPRESSION OF LUXURY AND PERSONALIZATION',
     price: '₹ 3,00,00,000*',
-    image: '/rangerover_gold.png',
+    image: 'rangerover_gold.png',
     power: '530 PS Twin-Turbo V8',
     acceleration: '4.6 seconds (0-100 km/h)',
     clearance: '295 mm Ground Clearance',
@@ -20,7 +20,7 @@ const SHOWCASE_MODELS = [
     name: 'RANGE ROVER SPORT',
     tagline: 'DYNAMIC LUXURY WITH EXCEPTIONAL SPORTING POSTURE',
     price: '₹ 1,40,00,000*',
-    image: '/rangerover_black.png',
+    image: 'rangerover_black.png',
     power: '350 PS Diesel Mild-Hybrid',
     acceleration: '5.9 seconds (0-100 km/h)',
     clearance: '281 mm Ground Clearance',
@@ -29,7 +29,7 @@ const SHOWCASE_MODELS = [
     name: 'RANGE ROVER VELAR',
     tagline: 'AVANT-GARDE SILHOUETTE AND MODERN DESIGN',
     price: '₹ 94,30,000*',
-    image: '/rangerover_silver.png',
+    image: 'rangerover_silver.png',
     power: '250 PS Petrol Turbo',
     acceleration: '7.5 seconds (0-100 km/h)',
     clearance: '213 mm Ground Clearance',
@@ -38,7 +38,7 @@ const SHOWCASE_MODELS = [
     name: 'RANGE ROVER EVOQUE',
     tagline: 'COMPACT CITY SUV TAILORED FOR SOPHISTICATION',
     price: '₹ 67,90,000*',
-    image: '/rangerover_white.png',
+    image: 'rangerover_white.png',
     power: '204 PS Mild-Hybrid Diesel',
     acceleration: '8.5 seconds (0-100 km/h)',
     clearance: '212 mm Ground Clearance',
@@ -210,7 +210,7 @@ export default function RangeRoverPage() {
             }}
           />
           <img
-            src="/rangerover_hero.png"
+            src="rangerover_hero.png"
             alt="Range Rover Scenic Pass"
             style={{
               width: '100%',

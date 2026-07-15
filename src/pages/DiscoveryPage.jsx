@@ -11,7 +11,7 @@ const SHOWCASE_MODELS = [
     name: 'DISCOVERY',
     tagline: 'THE ULTIMATE SEVEN-SEAT PREMIUM FAMILY SUV',
     price: '₹ 97,00,000*',
-    image: '/discovery_darkgrey.png',
+    image: 'discovery_darkgrey.png',
     power: '300 PS Turbo Diesel',
     acceleration: '6.8 seconds (0-100 km/h)',
     clearance: '283 mm Ground Clearance',
@@ -20,7 +20,7 @@ const SHOWCASE_MODELS = [
     name: 'DISCOVERY SPORT',
     tagline: 'VERSATILE COMPACT 5+2 ADVENTURE SUV',
     price: '₹ 72,00,000*',
-    image: '/discovery_bronze.png',
+    image: 'discovery_bronze.png',
     power: '250 PS Mild-Hybrid Petrol',
     acceleration: '7.8 seconds (0-100 km/h)',
     clearance: '212 mm Ground Clearance',
@@ -192,7 +192,7 @@ export default function DiscoveryPage() {
             }}
           />
           <img
-            src="/discovery_hero.png"
+            src="discovery_hero.png"
             alt="Discovery Forest Crossing"
             style={{
               width: '100%',

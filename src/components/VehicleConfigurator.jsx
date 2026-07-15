@@ -12,10 +12,10 @@ const VEHICLES_DATA = {
       { id: 'evoque', name: 'Range Rover Evoque', desc: 'Compact luxury tailored for sophisticated cityscapes', basePrice: 6790000, seats: 5, engine: '2.0L Diesel Mild-Hybrid (204 PS)' },
     ],
     colors: [
-      { id: 'gold', name: 'Sunset Gold Satin', price: 250000, hex: '#c5a880', img: '/rangerover_gold.png' },
-      { id: 'black', name: 'Santorini Black', price: 150000, hex: '#111111', img: '/rangerover_black.png' },
-      { id: 'silver', name: 'Hakuba Silver', price: 150000, hex: '#d2d5d8', img: '/rangerover_silver.png' },
-      { id: 'white', name: 'Fuji White', price: 0, hex: '#ffffff', img: '/rangerover_white.png' },
+      { id: 'gold', name: 'Sunset Gold Satin', price: 250000, hex: '#c5a880', img: 'rangerover_gold.png' },
+      { id: 'black', name: 'Santorini Black', price: 150000, hex: '#111111', img: 'rangerover_black.png' },
+      { id: 'silver', name: 'Hakuba Silver', price: 150000, hex: '#d2d5d8', img: 'rangerover_silver.png' },
+      { id: 'white', name: 'Fuji White', price: 0, hex: '#ffffff', img: 'rangerover_white.png' },
     ],
     wheels: [
       { id: '21', name: '21" Style 5112, 5-Spoke Gloss Silver', price: 0, desc: 'Luxury standard silver profile' },
@@ -37,9 +37,9 @@ const VEHICLES_DATA = {
       { id: 'octa', name: 'Defender OCTA', desc: 'Twin-Turbo V8 High-Performance Hero', basePrice: 26500000, seats: 5, engine: '4.4L Twin-Turbo V8 (635 PS)' },
     ],
     colors: [
-      { id: 'grey', name: 'Carpathian Grey', price: 120000, hex: '#44464a', img: '/defender_grey.png' },
-      { id: 'blue', name: 'Tasman Blue', price: 120000, hex: '#1e2c3b', img: '/defender_blue.png' },
-      { id: 'white', name: 'Fuji White', price: 0, hex: '#eceef0', img: '/defender_white.png' },
+      { id: 'grey', name: 'Carpathian Grey', price: 120000, hex: '#44464a', img: 'defender_grey.png' },
+      { id: 'blue', name: 'Tasman Blue', price: 120000, hex: '#1e2c3b', img: 'defender_blue.png' },
+      { id: 'white', name: 'Fuji White', price: 0, hex: '#eceef0', img: 'defender_white.png' },
     ],
     wheels: [
       { id: '19', name: '19" Style 6010, 6-Spoke Gloss Silver', price: 0, desc: 'Rugged standard profile' },
@@ -59,9 +59,9 @@ const VEHICLES_DATA = {
       { id: 'sport', name: 'Discovery Sport', desc: 'Versatile compact premium 5+2 adventurer', basePrice: 7200000, seats: 5, engine: '2.0L Mild-Hybrid Petrol (250 PS)' },
     ],
     colors: [
-      { id: 'darkgrey', name: 'Eiger Grey', price: 110000, hex: '#52565c', img: '/discovery_darkgrey.png' },
-      { id: 'bronze', name: 'Lantau Bronze', price: 110000, hex: '#7e746a', img: '/discovery_bronze.png' },
-      { id: 'white', name: 'Fuji White', price: 0, hex: '#ffffff', img: '/discovery_white.png' },
+      { id: 'darkgrey', name: 'Eiger Grey', price: 110000, hex: '#52565c', img: 'discovery_darkgrey.png' },
+      { id: 'bronze', name: 'Lantau Bronze', price: 110000, hex: '#7e746a', img: 'discovery_bronze.png' },
+      { id: 'white', name: 'Fuji White', price: 0, hex: '#ffffff', img: 'discovery_white.png' },
     ],
     wheels: [
       { id: '20', name: '20" Style 5011, Gloss Sparkle Silver', price: 0, desc: 'Versatile standard silver profile' },
